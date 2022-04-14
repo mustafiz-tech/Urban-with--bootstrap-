@@ -1,0 +1,154 @@
+
+body{
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Scope One', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common classes */
+
+.image{
+    border-radius: 50%;
+    width: 100%;
+    border: 0.1rem solid grey;
+    padding: 0.3rem;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+}
+.para{
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 2.5rem;
+}
+.btn{
+    padding: 0.5rem 1.5rem;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.gapping{
+    padding: 7rem 0;
+}
+
+
+/* header section */
+
+header{
+    width: 100%;
+    min-height: 900px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* nav area */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 2rem ;
+}
+nav h1{
+    font-size: 1.3rem;
+    color: #3498db;
+}
+span{
+    color: #fff ;
+}
+nav a{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* banner area */
+.banner-section{
+    text-align: center;
+    padding-top: 10rem;
+    color: #fff;
+}
+.banner-section h2{
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.banner-section p{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+.random-btn{
+    padding: 1rem 3rem;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/* random classes  */
+
+.random-btn{
+    padding: 1rem 3rem;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.random-box{
+    background-color: #3498db;
+    color: #fff;
+    padding: 5rem 0;
+}
+.section-btn{
+    background-color: #fff;
+    color: #3498db;
+}
+
+/* 3rd area section */
+
+.random-container{
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.random-container h1{
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+.random-container p{
+    font-size: 1.3rem;
+    color: grey;
+    margin-bottom: 5rem;
+}
+.random-container h5{
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    color: grey;
+    
+}
+footer{
+    text-align: center;
+    padding: 5rem 0;
+}
+footer .fa{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: grey;
+    border-radius: 50%;
+    border: 0.1rem solid grey;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+}
+footer p{
+    font-size: 1.2rem;
+    color: #bdbdbd;
+}
+
+
